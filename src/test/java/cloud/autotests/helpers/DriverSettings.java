@@ -1,7 +1,9 @@
 package cloud.autotests.helpers;
 
+import cloud.autotests.config.CredentialsConfig;
 import cloud.autotests.config.Project;
 import com.codeborne.selenide.Configuration;
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -11,9 +13,13 @@ import java.util.Map;
 public class DriverSettings {
 
     public static void configure() {
+        CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
+
         Configuration.browser = Project.config.browser();
         Configuration.browserVersion = Project.config.browserVersion();
         Configuration.browserSize = Project.config.browserSize();
+        Configuration.remote = "https://"+ config.login() + ":" + config.password() + "@" +
+                System.getProperty("remote","selenoid.autotests.cloud/wd/hub");
 //        Configuration.baseUrl = App.config.webUrl();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
