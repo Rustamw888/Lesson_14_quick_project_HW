@@ -64,7 +64,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Smoke test")
-    @DisplayName("moving an about tab to the desired section")
+    @DisplayName("Moving an about tab to the desired section")
     void movingAnAboutTabToTheDesiredSection() {
         step("Open url 'https://marstech.tb.ru/'", () ->
                 open("https://marstech.tb.ru/"));
@@ -77,7 +77,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Smoke test")
-    @DisplayName("moving a services tab to the desired section")
+    @DisplayName("Moving a services tab to the desired section")
     void movingAServicesTabToTheDesiredSection() {
         step("Open url 'https://marstech.tb.ru/'", () ->
                 open("https://marstech.tb.ru/"));
@@ -90,7 +90,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Smoke test")
-    @DisplayName("moving an advantages tab to the desired section")
+    @DisplayName("Moving an advantages tab to the desired section")
     void movingAnAdvantagesTabToTheDesiredSection() {
         step("Open url 'https://marstech.tb.ru/'", () ->
                 open("https://marstech.tb.ru/"));
@@ -103,7 +103,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Smoke test")
-    @DisplayName("moving a contacts tab to the desired section")
+    @DisplayName("Moving a contacts tab to the desired section")
     void movingAContactsTabToTheDesiredSection() {
         step("Open url 'https://marstech.tb.ru/'", () ->
                 open("https://marstech.tb.ru/"));
@@ -116,7 +116,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Smoke test")
-    @DisplayName("moving a wwf tab to the desired section")
+    @DisplayName("Moving a wwf tab to the desired section")
     void movingAWwfTabToTheDesiredSection() {
         step("Open url 'https://marstech.tb.ru/'", () ->
                 open("https://marstech.tb.ru/"));
