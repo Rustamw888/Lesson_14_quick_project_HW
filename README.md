@@ -43,7 +43,7 @@
 ## :rocket: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/Lesson_14_quick_project_HW2/">Сборка в Jenkins</a>
 <p align="center">
-<img title="Jenkins Dashboard" src="images/screenshots/jenkins-dashboard.png">
+<img title="Jenkins Dashboard" src="images/screenshots/jenkins_dashboard.png">
 </p>
 
 ### Параметры сборки в Jenkins:
