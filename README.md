@@ -92,24 +92,34 @@ test
 
 - ### Страница с тестами в TestOps
 <p align="center">
-<img title="TestOps tests page" src="images/screenshots/test-ops-tests-page.png">
+<img title="TestOps tests page" src="images/screenshots/test_ops_tests_page.png">
+</p>
+
+- ### Страница с тестами в TestOps auto + manual
+<p align="center">
+<img title="TestOps tests page" src="images/screenshots/test_ops_manual.png">
+</p>
+
+- ### Экран с результатами запуска тестов auto + manual
+<p align="center">
+<img title="TestOps Launch Page" src="images/screenshots/allure_manual_results.png">
 </p>
 
 ## :rocket: Интеграция с Jira
 - ### Страница с задачей в Jira
 <p align="center">
-<img title="Jira issue" src="images/screenshots/jira-issue.png">
+<img title="Jira issue" src="images/screenshots/jira_issue.png">
 </p>
 
 ## :rocket: Отчет в Telegram
 <p align="center">
-<img title="Telegram notification message" src="images/screenshots/telegram-notification.png">
+<img title="Telegram notification message" src="images/screenshots/telegram_report.png">
 </p>
 
 ## :rocket: Видео примеры прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/test-run.gif">
+  <img title="Selenoid Video" src="images/gif/test_result.gif">
 </p>
 
 
