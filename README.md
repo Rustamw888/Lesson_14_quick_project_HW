@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования для MarsTech
-## <a target="_blank" href="https://www.acron.ru/">Веб сайт MarsTech</a>
+## <a target="_blank" href="https://marstech.tb.ru/">Веб сайт MarsTech</a>
 
 ![This is an image](https://i.imgur.com/mMya1nZ.png)
 
